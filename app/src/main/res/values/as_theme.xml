@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ActionSheetStyleIOS7" parent="@style/Theme.Sherlock.Light.NoActionBar">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/slt_as_ios7_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/slt_as_ios7_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/slt_as_ios7_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/slt_as_ios7_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/slt_as_ios7_other_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="titleButtonTextColor">#b5b5b5</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+
+    <style tools:ignore="NewApi" name="CustomTheme" parent="android:Theme.DeviceDefault">
+        <item name="cropImageStyle">@style/Widget.CropImageView</item>
+    </style>
+
+    <style name="Widget.CropImageView" parent="android:Widget">
+        <item name="showThirds">true</item>
+        <item name="showHandles">always</item>
+        <item name="highlightColor">@color/highlight</item>
+    </style>
+</resources>
